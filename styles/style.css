@@ -1,0 +1,30 @@
+/*general class to make elements fit page*/
+.fit_page_flex{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(219, 188, 141);
+}
+/*logo formating style*/
+#googlelogo {
+    padding-top: 21px;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    height: 180px;
+    width: 500px;
+    }
+.topmenu{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(184, 183, 179);
+    }
+.align_left{
+    float: left;
+    }
+.align_right{
+    float: right;
+    }
