@@ -1,3 +1,28 @@
+/*Navigation Menu format to be same as google jome page*/
+ul {
+    list-style-type: none;
+    background-color: lightgrey;
+}
+.menu{
+    display: grid;
+    background-color: lightslategray;
+    grid-template-rows: 20px;
+}
+.top-m{
+    grid-template-columns: 70px 70px 1fr repeat(4, 60px);
+}
+.bottom-m{
+    grid-template-columns: repeat(3,100px) 1fr repeat(2, 100px) 150px;
+}
+/*#top-menu {
+    display: grid;
+    grid-template-columns: 5% 5% auto 5% 5% 5% 5%;
+    
+
+    background-color: rgb(161, 253, 253);
+    font-family: arial, sans-serif;
+
+}
 /*general class to make elements fit page*/
 .fit_page_flex{
     display: flex;
@@ -9,7 +34,10 @@
 }
 /*logo formating style*/
 #googlelogo {
-    padding-top: 21px;
+    display: flexbox;
+    background-color: mediumaquamarine;
+    position: relative;
+    padding-top: 40px;
     margin: auto;
     margin-top: 180px;
     margin-bottom: 20px;

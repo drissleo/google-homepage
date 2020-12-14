@@ -4,26 +4,30 @@
         <meta charset="utf-8"/>
         <title>drissleo's Google Homepage TOP</title>
         <!--<link rel="stylesheet" href="styles/reset.css" media="all">-->
-        <!-- <link rel="stylesheet" href="styles/style.css"> -->
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-                    <li><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-DE">Store</a></li>
-                </ul>
-                <ul>
-                    <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a></li>
-                    <li><a href="https://www.google.de/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
-                </ul>
+            <!--top menu -->
+            <nav class="menu top-m" >
+                <a href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">About</a>
+                <a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-DE">Store</a>
+                <a></a>
+                <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+                <a href="https://www.google.de/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+                <img src="images/share_image.png">
+                <img src="images/share_image.png">
             </nav>
-            <div id="logo">
+            <!-- Big Google Logo -->
+            <div id="googlelogo">
                 <img alt="google logo" src="images/googlelogo_color_272x92dp.png">
-                <img alt="share icon" src="images/share_image.png">
+            </div>
+            <div id="share_icon">
+                <img alt="small icon indicating link for sharing" src="images/share_image.png">
             </div>
         </header>
         <main>
+            <!-- Search Box -->
             <form>
                 <input type="text" >
                 <input type="button" id="btn_google_search" value="Google search">
@@ -33,16 +37,15 @@
                 Google offered in:<a href="https://www.google.com/setprefs?sig=0_uTl-7Kvdm0_z8PqH-7FBJEgS7sM%3D&hl=de&source=homepage&sa=X&ved=0ahUKEwjL9qXmw8vtAhVP_qQKHSA7Ac4Q2ZgBCBI">Deutsch</a>
             </p>
         </main>
-        <footer>
+        <!-- footer menu -->
+        <footer class="menu bottom-m">
             <p>Germany</p>
-            <ul>
-                <il>Privacy</il>
-                <il>Terms</il>
-                <il>Settings</il>
-                <il>Advertising</il>
-                <il>Business</il>
-                <il>How Search Works</il>
-            </ul>
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Settings</a>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search Works</a>
         </footer>
     </body>
 </html>
